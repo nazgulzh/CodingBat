@@ -1,4 +1,4 @@
-package org.example.String1;
+package org.example.String_1;
 
 public class helloName {
     public static void main(String[] args) {
@@ -6,8 +6,9 @@ public class helloName {
         System.out.println(obj.helloName("Bob"));
 
     }
-    public String helloName(String name) {
-        return "Hello " + name + "!";
-
+    public String helloName(String name){
+        return "Hello".concat(" ").concat(name).concat("!");
     }
+
+
 }
